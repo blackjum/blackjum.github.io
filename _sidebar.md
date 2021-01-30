@@ -1,0 +1,17 @@
+<!-- docs/_sidebar.md -->
+
+* [主页](/)
+* [侦察](att&ck/reconnaissance.md "Reconnaissance")
+* [资源开发](att&ck/resourceDev.md "ResourceDevelopment")
+* [初始化访问](att&ck/initialAccess.md "InitialAccess")
+* [执行](att&ck/execution.md "Execution")
+* [维持权限](att&ck/persistence.md "Persistence")
+* [提升权限](att&ck/privilegeEscalation.md "PrivilegeEscalation")
+* [防御规避](att&ck/defenseEvasion.md "DefenseEvasion")
+* [凭证访问](att&ck/credentialAccess.md "CredentialAccess")
+* [发现](att&ck/discovery.md "Discovery")
+* [横向运动](att&ck/lateralMovement.md "LateralMovement")
+* [采集](att&ck/collection.md "Collection")
+* [C2](att&ck/c2.md "CommandAndControl")
+* [渗出](att&ck/exfiltration.md "Exfiltration")
+* [影响力](att&ck/impact.md "Impact")
