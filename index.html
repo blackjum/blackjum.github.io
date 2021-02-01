@@ -12,20 +12,58 @@
   <div id="app">加载中</div>
   <script>
   window.$docsify = {
-    name: 'tabjoys',
+    name: '闲的蛋疼的知识库',
     nameLink: '/',
+    repo: 'https://github.com/blackjum/blackjum.github.io',
     loadSidebar: true,
     subMaxLevel: 2,
     coverpage: true,
+    sidebarDisplayLevel: 1,
   }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+
+  <!--目录折叠 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+  <!-- emoji -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+  <!-- 主题CDN -->
+  <link 
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+    title="docsify-darklight-theme"
+    type="text/css"
+  />
+  <script 
+    src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
+    type="text/javascript">
+  </script>
+
+  <!--代码高亮 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>
+
+  <!--jquery及其js导入 -->
   <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="js/footer.js"></script>
   <script src="js/fq.js"></script>
+
+  <!--代码可复制 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+
+  <!--滑动栏 -->
+  <style type="text/css">
+  .content {
+    overflow: auto;
+  }
+  
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+</style>
 </body>
 </html>
+
